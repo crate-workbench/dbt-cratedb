@@ -1,4 +1,4 @@
-# dbt-cratedb2
+# dbt-cratedb
 
 ## About
 
@@ -19,8 +19,8 @@
 ## Setup
 Install package in development mode.
 ```shell
-git clone https://github.com/crate-workbench/dbt-cratedb2
-cd dbt-cratedb2
+git clone https://github.com/crate-workbench/dbt-cratedb
+cd dbt-cratedb
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --verbose --prefer-binary --editable=.
@@ -45,13 +45,11 @@ schema: dbt_dev
 
 ## Note
 
-This project is a friendly fork of the [dbt-cratedb] package on PyPI, originally
-conceived by [Julio Sánchez Jiménez]. Because attempts to contact him failed,
-the project has been revived as [dbt-cratedb2].
+This repository includes the source code of the [dbt-cratedb] package on PyPI,
+conceived by [Julio Sánchez Jiménez].
 
 
 [CrateDB]: https://github.com/crate/crate 
 [dbt-cratedb]: https://pypi.org/project/dbt-cratedb/
-[dbt-cratedb2]: https://github.com/crate-workbench/dbt-cratedb2
 [dbt]: https://github.com/dbt-labs/dbt-core
 [Julio Sánchez Jiménez]: https://github.com/jsnchzjmnz
